@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:700i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.nav-parent {
+    width: 100%;
+    background-color: #020402;
+    display: flex;
+}
+
+.Navbar img {
+    height: 10vh;
+    width: 10vw;
+}
+
+.Navbar h2 {
+    font-family: 'Alegreya';
+    color: #c6b38e;
+    margin-left: 3vw;
+    padding-top: 1vh;
+}
+
+.nav-options {
+    display: flex;
+}
+
+.Navbar p {
+    color: #c6b38e;
+    font-family: 'Open Sans';
+}
+
+.logout {
+    position: absolute;
+    right: 0;
+    padding-right: 2vw;
+    padding-top: 2vh;
+}
+
+.fix-link {
+    color: #c6b38e;
+    text-decoration: none;
+    cursor: pointer;
+}

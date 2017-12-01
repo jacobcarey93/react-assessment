@@ -20,3 +20,21 @@
     font-family: 'Alegreya';
     color: #4e1e29;
 }
+
+#browse-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+input + select {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-card {
+    box-sizing: content-box;
+    height: 20vh;
+    width: 50vw;
+    background-color: #fbffe6;
+    border-radius: 10px;
+}

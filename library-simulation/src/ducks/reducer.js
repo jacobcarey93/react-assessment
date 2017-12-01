@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 const initialState = {
+    userCredentials: [],
     username: '',
     userId: '',
-    userCredentials: []
 }
 
 const GET_USER_CREDENTIALS = 'GET_USER_CREDENTIALS';
@@ -23,7 +23,7 @@ export default function reducer(state = initialState, action){
 }
 
 export function getUserCredentials() {
-    const userData = axios.get('/api/auth/login')
+    const userData = axios.get('/auth/me')
         .then(res => {
             return res.data
         })
